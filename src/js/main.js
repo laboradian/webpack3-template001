@@ -7,4 +7,6 @@ import 'babel-polyfill'
 // index.html ファイルをコピーする
 require('file-loader?name=../../dist/[name].[ext]!../index.html');
 
-console.log('%c 🌈 Laboradian.com 🌈 ', 'background: #2383BF; color: #fff; font-size:1.4em;');
+console.log('%c 🌈 Laboradian.com 🌈 %c http://laboradian.com ',
+  'background: #2383BF; color: #fff; font-size: 1.4em;',
+  'background: #e3e3e3; color: #000; margin-bottom: 1px; padding-top: 4px; padding-bottom: 1px;');
